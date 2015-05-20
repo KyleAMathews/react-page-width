@@ -1,0 +1,50 @@
+{
+  "name": "react-page-width",
+  "description": "React mixin so a component can always know the current page width",
+  "version": "0.0.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/KyleAMathews/react-page-width/issues"
+  },
+  "dependencies": {
+    "raf": "^2.0.4"
+  },
+  "devDependencies": {
+    "chroma-js": "^0.7.2",
+    "cjsx-loader": "^2.0.1",
+    "coffee-loader": "^0.7.2",
+    "coffee-react": "^3.2.0",
+    "coffee-script": "^1.9.2",
+    "color-pairs-picker": "^1.3.2",
+    "lodash.throttle": "^3.0.3",
+    "react": "^0.13.3",
+    "react-headroom": "^1.6.0",
+    "react-hot-loader": "^1.2.7",
+    "react-responsive-grid": "^0.1.2",
+    "react-tween-state": "0.0.5",
+    "typography": "^0.3.0",
+    "webpack": "^1.9.7",
+    "webpack-dev-server": "^1.8.2"
+  },
+  "homepage": "https://github.com/KyleAMathews/react-page-width#readme",
+  "keywords": [
+    "page",
+    "react",
+    "react-component",
+    "width",
+    "width"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "peerDependencies": {
+    "react": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KyleAMathews/react-page-width.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "./node_modules/.bin/webpack-dev-server --hot"
+  }
+}
