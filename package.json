@@ -1,7 +1,7 @@
 {
   "name": "react-page-width",
   "description": "React mixin so a component can always know the current page width",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "bugs": {
     "url": "https://github.com/KyleAMathews/react-page-width/issues"
