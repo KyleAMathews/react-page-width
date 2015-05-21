@@ -18,7 +18,8 @@ update = ->
     subscriber(currentWidth)
   ticking = false
 
-window.addEventListener("resize", onResize)
+if window?
+  window.addEventListener("resize", onResize)
 
 module.exports = {
   on: (subscribeFn) ->
