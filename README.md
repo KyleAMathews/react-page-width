@@ -7,6 +7,9 @@ easily listen in to page width changes.
 ## Install
 `npm install react-page-width`
 
+## Demo
+http://kyleamathews.github.io/react-page-width/
+
 ## Usage
 ```javascript
 var PageWidthMixin = require('react-page-width')
